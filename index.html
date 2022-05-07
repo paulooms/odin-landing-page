@@ -5,15 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing page</title>
     <link rel="stylesheet" href="styles.css" </head> <body>
     <div class="header">
-        <div class="nav"></div>
+        <div class="nav">
+            <div class="logo">Header Logo</div>
+            <ul class="nav-links">
+                <li><a href="#">Nav link 1</a></li>
+                <li><a href="#">Nav link 2</a></li>
+                <li><a href="#">Nav link 3</a></li>
+            </ul>
+        </div>
         <div class="hero">
-            <div class="left"></div>
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext under the main title. It really fills out the element.</p>
-            <button>Gotta have a button</button>
+            <div class="left">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext under the main title. It really fills out the element.</p>
+                <button>Gotta have a button</button>
+            </div>
             <div class="right">
                 <div class="image">This is a placeholder.</div>
             </div>
@@ -21,29 +29,40 @@
     </div>
     <div class="information">
         <h2>Some random information.</h2>
-        <div class="item">
-            <div class="item-image"></div>
-            <p>This subtext under the information.</p>
-        </div>
-        <div class="item">
-            <div class="item-image"></div>
-            <p>This subtext under the information.</p>
-        </div>
-        <div class="item">
-            <div class="item-image"></div>
-            <p>This subtext under the information.</p>
-        </div>
-        <div class="item">
-            <div class="item-image"></div>
-            <p>This subtext under the information.</p>
+        <div class="information-container">
+            <div class="item">
+                <div class="item-image"></div>
+                <p>This subtext under the information. It should be a bit longer so I am writing another sentence.</p>
+            </div>
+            <div class="item">
+                <div class="item-image"></div>
+                <p>This subtext under the information. It should be a bit longer so I am writing another sentence.</p>
+            </div>
+            <div class="item">
+                <div class="item-image"></div>
+                <p>This subtext under the information. It should be a bit longer so I am writing another sentence.</p>
+            </div>
+            <div class="item">
+                <div class="item-image"></div>
+                <p>This subtext under the information. It should be a bit longer so I am writing another sentence.</p>
+            </div>
         </div>
     </div>
-    <div class="quote"></div>
-    <span class="quote">This is a great quote that will encourage sales and engagement. <span class=quote-att>Thor, God of Thunder</span></span>
-    <div class="cta"></div>
-    <div class="cta-left"><p>Call to action! It's time!</p><p>Sign up now to get the good stuff</p></div>
-    <div class="cta-right"><button>Sign up now!</button></div>
-    <div class="footer">Copyright C The Odin Project 2022</div>
+    <div class="quote">
+        <div class="quote-container">
+            <span class="quote-text">"This is a great quote that will encourage sales and engagement. It inspires
+                confidence and increases the likelihood of business occuring." <span class=quote-att>- Thor, God
+                    of Thunder</span></span></div>
+    </div>
+    <div class="cta">
+    <div class="cta-container">
+    <div class="cta-left">
+        <h3>Call to action! It's time!</h3>
+        <p>Sign up now to get the good stuff</p>
+    </div>
+    <div class="cta-right"><button class="cta-button">Sign up now!</button></div>
+</div></div>
+    <div class="footer">Copyright © The Odin Project 2022</div>
     </body>
 
 </html>
